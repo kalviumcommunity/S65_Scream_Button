@@ -6,7 +6,8 @@ app.get('/ping', (req, res) => {
     try {
         res.send('pong');
     } catch (error) {
-        res.status(500).send(error);
+        console.error('Error in ping route:', error);
+        res.status(500).send('Internal Server Error');
     }
 });
 
