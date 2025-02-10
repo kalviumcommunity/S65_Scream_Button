@@ -4,8 +4,16 @@
   "description": "The *Scream Button* is a fun, interactive app designed to provide entertainment through sound and user engagement. It allows users to press a button to hear random screams, record their own screams, and compete with others based on the loudness of their screams. The app brings a quirky and playful element to the user experience, enabling social interaction and laughter.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests specified yet\" && exit 0" 
-  }
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
   "author": "rohit-xo21",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
